@@ -1,0 +1,28 @@
+
+def findfactors(num):
+    x=[]
+    for i in range(1,num):
+        if int(num/i) == num/i:
+            x.append(i) 
+    return(x)
+
+def repeated(text):
+    istrue=False
+    while istrue=False:
+        for stringpart in findfactors(len(text)):
+            testedrepeat=text[0:stringpart]
+            timestorepeat=len(text)/len(testedrepeat)
+            test=""
+            for i in range(timestorepeat):
+                test=test+testedrepeat
+            if test==text:
+                istrue=True
+    
+    
+    
+    
+repeated("aacaacaacd")
+
+
+
+findfactors(16)
