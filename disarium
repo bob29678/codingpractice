@@ -1,7 +1,0 @@
-def isdisarium(x):
-    sum=0
-    for i in range(len(str(x))):
-        print(int(str(x)[i])^(i+1))
-
-
-isdisarium(563)
