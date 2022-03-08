@@ -15,11 +15,6 @@ def consecvowels(word):
     beststreak+=1
     return beststreak
     
-wordlist=[]
+word="Queueing"
 
-vowelcount=0
-
-for word in wordlist:
-    for letter in word:
-        if letter in vowels:
-            vowelcount+=1
+print(consecvowels(word))
